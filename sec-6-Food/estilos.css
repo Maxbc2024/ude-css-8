@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+:root {
+/* // Base Colors */
+--prim-c: #111;
+--sec-c: #333;
+--light-c: #fff;
+/* // Social Colors */
+--Facebook: #395599;
+--Instagram: #c32f82;
+--Twitter: #1c9deb;
+--Printerest: #d73532;
+--LinkedIn: #4064ad;
+--YouTube: #f80000;
+
+/* // Responsive Variables */
+--iPad-Pro: 1024px;
+--iPad: 768px;
+--iPhone-X: 375px;
+
+
+/* // Font Variables */
+--base-font-size: 16px;
+--sm_font-size: var(--base-font-size) * 0.8;
+--lg_font-size: var(--base-font-size) * 1.4;
+--xl_font-size: var(--base-font-size) * 1.8;
+
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/* ------------- nav  -----------------*/
+
+.nav {
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+    /* display: block; */
+    /* width: 100%; */
+    height: 80px;
+    background-color: var(--light-c);
+}
+
+.nav-top{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction:row;
+    /* flex-flow:wrap; */
+    justify-content: space-between;
+    /* alinea Y */
+    align-items: center;
+}
+
+.nav .nav-top .nav-item{
+    color: var(--prim-c);
+    margin: 0 1rem;
+}
+
+.nav .nav-top .nav-item:hover{
+    font-weight: bolder;
+}
+
+.text-sm{
+    font-size: 12.8px;
+}
+
+.text-lg{
+    font-size: 22.4px;
+}
+
+.text-xl{
+    font-size: 28.8px;
+}
+
+/* ------------- main  -----------------*/
+
+.main_section{
+    margin-top: 100px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.main_section .section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    /* X */
+    justify-content: space-evenly;
+}
+
+.main_section .section .card{
+    width: 230px;
+    margin-bottom: 2rem;
+    
+}
+
+.main_section .section .card .text-lg{
+    margin: 1rem 0;
+}
+
+.main_section .section .card:hover{
+    cursor: pointer;
+    color: var(--light-c);
+    background: linear-gradient(var(--YouTube), var(--Twitter));
+}
+
+.main_section img{
+    max-height: 300px;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+/* ------------- about  -----------------*/
+
+.about-section h3,
+h4,
+h5{
+    margin: 3rem 0;
+}
+
+.about-section img {
+    display: block;
+    height: 550px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section p {
+    margin: 6rem;
+    line-height: 1.5;
+}
+
+/* ------------- footer  -----------------*/
+
+
+
+
+
+
+
+
+
+
+
