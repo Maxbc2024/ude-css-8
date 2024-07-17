@@ -1,0 +1,57 @@
+// SASS Comment
+/*this is a comment */
+// Nesting
+
+// #SYNTAX h1 {
+//   color: red;
+// }
+// #Nesting ol {
+//   color: red;
+// }
+// #Nesting ol li {
+//   color: green;
+// }
+// #Nesting ol li:hover {
+//   color: blue;
+// }
+
+// --------------- Nesting --------------------
+
+#Nesting {
+  h2 {
+    color: purple;
+  }
+  ol {
+    color: red;
+    background-color: black;
+    li {
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      &:hover {
+        color: red;
+        background-color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+// h2 {
+//   color: steelblue;
+// }
+
+// --------------- Interpolation ---------------------
+
+.main-list {
+  color: red;
+  background-color: blue;
+  #{&}-item {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    &:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
