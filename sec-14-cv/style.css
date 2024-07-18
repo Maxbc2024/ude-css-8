@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+:root{
+    /* // Variable Colors */
+
+    --prim-c: #1177ff;
+    --secondary-c: #9daaa0;
+    --success-c: #22aa44;
+    --danger-c: #cc3b3b;
+    --warning-c: #ffbb33;
+    --info-c: #11a2b2;
+    --light-c: #f8f9f7;
+    --dark-c: #0a000e;
+
+    /* // Background Colors */
+    --btn-bg-prim-c: var(--prim-c);
+    --btn-bg-secondary-c: var(--secondary-c);
+    --btn-bg-success-c: var(--success-c);
+    --btn-bg-danger-c: var(--danger-c);
+    --btn-bg-warning-c: var(--warning-c);
+    --btn-bg-info-c: var(--info-c);
+    --btn-bg-light-c: var(--light-c);
+    --btn-bg-dark-c: var(--dark-c);
+
+    /* // Neon Color */
+
+    --NeonRed: #f40303;
+    --NeonGreen: #03f423;
+    --NeonBlue: #032ff4;
+    --NeonYellow: #f0f403;
+    --NeonWhite: #f8f9f7;
+
+    /* // Social Media */
+
+    --Facebook: #395599;
+    --Instagram: #ce2f82;
+    --Twitter: #1c9deb;
+    --Pinterest: #d73532;
+    --LinkedIn: #4064ad;
+    --YouTube: #f80000;
+    --Snapchat: #ffee00;
+
+    /* // Programing Languages */
+    --js: #efd81d;
+    --vuejs: #3fb37f;
+    --react: #00d8ff;
+    --angular: #dd0330;
+
+    /* // Screen Size */
+
+    --iPad-Pro: 1024px;
+    --iPad: 768px;
+    --iPhone-X: 375px;
+}
+
+body {
+    max-width: 1024px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.2px;
+    /* background-color: darken(var(--light-c),10%); */
+    background-color: #f8f9f7;
+    margin: auto;
+}
+
+
+.lineaborde_a {
+    border: 1px solid red;
+}
+
+.lineaborde_b {
+    border: 1px solid blue;
+}
+
+.lineaborde_C {
+    border: 1px solid olivedrab;
+}
+
+.lineaborde_d {
+    border: 1px solid rgb(212, 0, 255);
+}
+
+hr{
+    margin: 2rem auto;
+}
+/* ------------------------------------------- */
+
