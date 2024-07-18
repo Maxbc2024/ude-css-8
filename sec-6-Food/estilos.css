@@ -45,7 +45,21 @@ body {
     margin: auto;
 }
 
+.lineaborde_a {
+    /* border: 1px solid red; */
+}
 
+.lineaborde_b {
+    /* border: 1px solid blue; */
+}
+
+.lineaborde_C {
+    /* border: 1px solid olivedrab; */
+}
+
+.lineaborde_d {
+    /* border: 1px solid rgb(212, 0, 255); */
+}
 
 /* ------------- nav  -----------------*/
 
@@ -162,13 +176,108 @@ h5{
 
 /* ------------- footer  -----------------*/
 
+.section-footer {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-footer .title{
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.section-footer .footer{
+    width: 300px;
+}
+
+.section-footer  .footer_1 {
+    display: flex;
+    flex-direction: column;
+    /* x */
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.section-footer  .footer_1 .footer_contact{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.section-footer  .footer_2 .footer_2-content{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
+.section-footer  .footer_2 .footer_2-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
+.section-footer  .footer_2 .footer_2-content li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
 
+.section-footer  .footer_2 .footer_2-content li:hover {
+    /* background-color: lighten(var(--sec-c), 30%); */
+    background-color: var(--sec-c);
+    cursor: pointer;
+    color: var(--light-c);
+}
 
+.section-footer  .footer_3 .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.section-footer  .footer_3 .footer_social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
 
+.section-footer  .footer_3 .footer_social a i{
+    font-size: 2rem;
+    color:var(--sec-c)
+}
+
+.section-footer .footer_3 .footer_social .fa-facebook:hover{
+    color: var(--Facebook);
+}
+
+.footer_3 .footer_social .fa-instagram:hover{
+    color: var(--Instagram);
+}
+
+.footer_3 .footer_social .fa-twitter:hover{
+    color: var(--Twitter);
+}   
+
+.footer_3 .footer_social .fa-pinterest:hover{
+    color: var(--Printerest);
+}
+
+.section-footer  .footer_3 .tags span {
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+/* ------------ Responsive ------------- */
 
 
