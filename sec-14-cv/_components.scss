@@ -1,0 +1,27 @@
+// Text Font Sizes
+// Map
+
+$Font_sizes: (
+  "sm": $sm_font-size,
+  "lg": $lg_font-size,
+  "xl": $xl_font-size,
+);
+@each $size_name, $size_value in $Font_sizes {
+  .text {
+    &-#{$size_name} {
+      font-size: $size_value;
+    }
+  }
+}
+
+// Text Position Component
+$Text_Position: (
+  "left": left,
+  "center": center,
+  "right": right,
+);
+@each $position_name, $position_value in $Text_Position {
+  .#{$position_name} {
+    text-align: $position_value;
+  }
+}

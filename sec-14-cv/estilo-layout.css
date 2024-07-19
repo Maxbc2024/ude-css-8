@@ -1,4 +1,22 @@
 
+.lineaborde_a {
+    border: 1px solid red;
+}
+
+.lineaborde_b {
+    border: 1px solid blue;
+}
+
+.lineaborde_C {
+    border: 1px solid olivedrab;
+}
+
+.lineaborde_d {
+    border: 1px solid rgb(212, 0, 255);
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -69,25 +87,50 @@ body {
     margin: auto;
 }
 
-
-.lineaborde_a {
-    border: 1px solid red;
-}
-
-.lineaborde_b {
-    border: 1px solid blue;
-}
-
-.lineaborde_C {
-    border: 1px solid olivedrab;
-}
-
-.lineaborde_d {
-    border: 1px solid rgb(212, 0, 255);
-}
-
 hr{
     margin: 2rem auto;
 }
+
 /* ------------------------------------------- */
+#main-area {
+    display: -ms-grid;
+    display: grid;
+    grid-template: "aside section_top " auto
+                    "aside section_bot " auto
+                    "footer footer " 10vh
+                    / 30% auto;
+    gap: 10px;
+}
+
+#main-area {
+    grid-area: main;
+}
+
+#section-area_top {
+    grid-area: section_top;
+}
+  
+#section-area_bot {
+    grid-area: section_bot;
+}
+  
+#aside-area {
+    grid-area: aside;
+}
+  
+#footer-area {
+    grid-area: footer;
+}
+
+
+/* <!-- aside area --> */
+
+/* #aside-area {
+    background-color: #f8f9f7;
+    width: 100%;
+    -webkit-box-shadow: 0 0 15px 2px #aaaaaa;
+            box-shadow: 0 0 15px 2px #aaaaaa;
+  } */
+
+
 

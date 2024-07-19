@@ -194,7 +194,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
 }
 #section-area .section-grid-container .container-item:nth-child(1) {
-  background-image: url(img/black-and-red-butterfly-on-persons-hand-3979732.jpg);
+  background-image: url(/img/black-and-red-butterfly-on-persons-hand-3979732.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -204,7 +204,7 @@ body {
   grid-row: 1/3;
 }
 #section-area .section-grid-container .container-item:nth-child(2) {
-  background-image: url(img/gray-high-rise-building-1769369.jpg);
+  background-image: url(/img/gray-high-rise-building-1769369.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -214,7 +214,7 @@ body {
   grid-row: 1/3;
 }
 #section-area .section-grid-container .container-item:nth-child(3) {
-  background-image: url(img/high-rise-building-1829191.jpg);
+  background-image: url(/img/high-rise-building-1829191.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -224,7 +224,7 @@ body {
   grid-row: 1/3;
 }
 #section-area .section-grid-container .container-item:nth-child(4) {
-  background-image: url(img/lighted-tower-beside-building-2304895.jpg);
+  background-image: url(/img/lighted-tower-beside-building-2304895.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -234,7 +234,7 @@ body {
   grid-row: 3/4;
 }
 #section-area .section-grid-container .container-item:nth-child(5) {
-  background-image: url(img/nature-photography-of-waterfall-3633626.jpg);
+  background-image: url(/img/nature-photography-of-waterfall-3633626.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -244,7 +244,7 @@ body {
   grid-row: 3/4;
 }
 #section-area .section-grid-container .container-item:nth-child(6) {
-  background-image: url(img/person-standing-on-wrecked-plane-919606.jpg);
+  background-image: url(/img/person-standing-on-wrecked-plane-919606.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -254,7 +254,7 @@ body {
   grid-row: 3/4;
 }
 #section-area .section-grid-container .container-item:nth-child(7) {
-  background-image: url(img/selective-focus-photo-of-a-short-coated-white-and-black-3009441.jpg);
+  background-image: url(/img/selective-focus-photo-of-a-short-coated-white-and-black-3009441.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -264,7 +264,7 @@ body {
   grid-row: 3/4;
 }
 #section-area .section-grid-container .container-item:nth-child(8) {
-  background-image: url(img/white-and-red-cherry-blossom-flowers-3979186.jpg);
+  background-image: url(/img/white-and-red-cherry-blossom-flowers-3979186.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -274,7 +274,7 @@ body {
   grid-row: 5/6;
 }
 #section-area .section-grid-container .container-item:nth-child(9) {
-  background-image: url(img/trees-on-mountain-3551227.jpg);
+  background-image: url(/img/trees-on-mountain-3551227.jpg);
   width: 100%;
   height: 300px;
   background-position: center;

@@ -4,10 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
@@ -17,19 +13,15 @@
       src="https://kit.fontawesome.com/75e53ee709.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <link rel="stylesheet" href="/dist/css/components.css" /> -->
+    <link rel="stylesheet" href="/dist/css/Components.css" />
 
-    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="/dist/css/myCV.css" />
 
     <title>Simple CV Template</title>
   </head>
   <body id="id02" class="light">
-
     <main id="main-area">
-
-      <!-- aside area -->
       <aside id="aside-area">
-
         <div class="photo">
           <label class="text-xl" for="photo">Jane Doe</label>
         </div>
@@ -39,15 +31,21 @@
             <i class="fas fa-briefcase icon_default"></i>
             Developer
           </li>
-          <li class="hover"><i class="fas fa-city icon_default"></i>California, US</li>
-          <li class="hover"><i class="fas fa-envelope icon_default"></i>Janedoe@mail.com</li>
-          <li class="hover"><i class="fas fa-phone icon_default"></i> +456048466841</li>
+          <li class="hover">
+            <i class="fas fa-city icon_default"></i>California, US
+          </li>
+          <li class="hover">
+            <i class="fas fa-envelope icon_default"></i>Janedoe@mail.com
+          </li>
+          <li class="hover">
+            <i class="fas fa-phone icon_default"></i> +456048466841
+          </li>
         </ul>
         <ul class="personal_social">
           <li><i class="fab fa-twitter icon_default hover"></i></li>
-          <li><i class="fab fa-linkedin icon_default"></i></li>
-          <li><i class="fab fa-github icon_default"></i></li>
-          <li><i class="fab fa-youtube icon_default"></i></li>
+          <li><i class="fab fa-linkedin icon_default hover"></i></li>
+          <li><i class="fab fa-github icon_default hover"></i></li>
+          <li><i class="fab fa-youtube icon_default hover"></i></li>
         </ul>
         <hr />
         <!-- Skills -->
@@ -92,18 +90,16 @@
           </div>
         </div>
         <hr />
+
         <!-- Color Switcher -->
         <div class="switch_mode">
-          <a class="Btn text-md light" 
-            href="#id01">Light</a>
+          <a class="Btn text-md light" href="#id01">Light</a>
 
-          <a class="Btn text-md dark" 
-            href="#id02" id="dark">Dark</a>
+          <a class="Btn text-md dark" href="#id02" id="dark">Dark</a>
         </div>
-       
-      </aside>
 
-       <!-- section area -->
+        <!-- End -->
+      </aside>
       <section id="section-area_top">
         <div class="work_experience">
           <div class="work_experience-title">
@@ -118,7 +114,7 @@
               <p class="icon_default tp-0_5">Jan 2019</p>
               <p class="current icon_default tp-0_5">- Current</p>
             </div>
-            <p class="text-md tp-0_5">
+            <p class="text-md tm-0_5">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam,
               natus aliquid saepe quis omnis quas, harum modi asperiores facilis
               sit eaque repellat? Ex praesentium, rem in nihil odit sequi fugit.
@@ -133,7 +129,7 @@
               <p class="icon_default tp-0_5">Feb 2016</p>
               <p class="icon_default tp-0_5">- March 2019</p>
             </div>
-            <p class="text-md tp-0_5">
+            <p class="text-md tm-0_5">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam,
               natus aliquid saepe quis omnis quas, harum modi asperiores facilis
               sit eaque repellat? Ex praesentium, rem in nihil odit sequi fugit.
@@ -156,7 +152,6 @@
           </div>
         </div>
       </section>
-
       <!-- Education -->
       <section id="section-area_bot">
         <div class="education">
@@ -207,8 +202,6 @@
           </div>
         </div>
       </section>
-
-        <!-- footer -->
       <footer id="footer-area">
         <p></p>
         <ul class="social">
@@ -220,7 +213,6 @@
           &copy;2020
         </p>
       </footer>
-
     </main>
   </body>
 </html>
