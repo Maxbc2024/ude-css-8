@@ -7,4 +7,16 @@ Live Sass Compiler
 
 medidas
 
-https://www.freecodecamp.org/espanol/news/aprende-unidades-de-medidad-css-em-rem-vh-y-vw-con-ejemplos-de-codigos/
+flex
+
+https://codepen.io/enxaneta/full/adLPwv/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+
+
+
+
+
