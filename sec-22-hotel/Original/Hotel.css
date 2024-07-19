@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+.card {
+  border-radius: 0;
+}
+
+.opac,
+#Subscription .card:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  max-width: 1450px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  background-color: #769cd3;
+  background-color: #f8f9f7;
+  color: #02314b;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+p {
+  word-break: break-all;
+}
+
+#Nav-with-Logo-Button {
+  background-color: #003580;
+  height: 60px;
+}
+
+#Nav-with-Logo-Button .nav_logo {
+  background-color: #cc3b3b;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  color: #f8f9f7;
+}
+
+#Nav-with-Logo-Button ul {
+  height: 100%;
+}
+
+#Nav-with-Logo-Button .nav_link a {
+  padding: 1rem;
+  color: #f8f9f7;
+  height: 100%;
+}
+
+#Nav-with-Logo-Button .nav_link a:hover {
+  color: #f8f9f7;
+  background-color: #1177ff;
+}
+
+#Header {
+  background: url(/dist/Portfolio/Hotel/img/header.jpg);
+  margin-top: 2rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+#Header .card {
+  background-color: rgba(255, 235, 205, 0.8);
+  max-width: 50%;
+  min-width: 378px;
+  color: #f8f9f7;
+  border: none;
+  position: relative;
+  left: 40%;
+  top: 5%;
+  -webkit-animation: Hotel-anime 3s ease;
+  animation: Hotel-anime 3s ease;
+}
+
+#Header .card .card-body .card-header {
+  background-color: #cc3b3b;
+  letter-spacing: 2.5px;
+  padding-left: 1rem;
+}
+
+@-webkit-keyframes Hotel-anime {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 40%;
+  }
+}
+
+@keyframes Hotel-anime {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 40%;
+  }
+}
+
+#Header #Hotel_name {
+  max-width: 700px;
+}
+
+#Header #Hotel_name .date-container,
+#Header #Hotel_name .people-container {
+  padding: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#Header #Hotel_name .date-container .form-group,
+#Header #Hotel_name .people-container .form-group {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#Header #Hotel_name .date-container label,
+#Header #Hotel_name .people-container label {
+  color: #0a000e;
+}
+
+#Header #Hotel_name .date-container input,
+#Header #Hotel_name .people-container input {
+  color: #cc3b3b;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+}
+
+#Header #Hotel_name .date-container input::-webkit-input-placeholder,
+#Header #Hotel_name .people-container input::-webkit-input-placeholder {
+  color: #cc3b3b;
+}
+
+#Header #Hotel_name .date-container input:-ms-input-placeholder,
+#Header #Hotel_name .people-container input:-ms-input-placeholder {
+  color: #cc3b3b;
+}
+
+#Header #Hotel_name .date-container input::-ms-input-placeholder,
+#Header #Hotel_name .people-container input::-ms-input-placeholder {
+  color: #cc3b3b;
+}
+
+#Header #Hotel_name .date-container input::placeholder,
+#Header #Hotel_name .people-container input::placeholder {
+  color: #cc3b3b;
+}
+
+#Header #Hotel_name i {
+  padding-right: 0.5rem;
+}
+
+#Header #Hotel_btn {
+  margin: 1rem;
+  display: inline-block;
+}
+
+#Rooms_form {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#Rooms_form .Rooms-container {
+  max-width: 100%;
+  gap: 1rem;
+  -webkit-box-pack: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+}
+
+#Rooms_form .Rooms-container .from-group {
+  padding-left: 1rem;
+}
+
+#Rooms_form .Rooms-container label i {
+  padding-right: 1rem;
+}
+
+#Rooms_form #Search_btn {
+  margin: 1rem;
+  display: block;
+}
+
+#Rooms_form #Search_btn .fa-search {
+  color: #02314b;
+}
+
+.rooms_card-container {
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.rooms_card-container .card {
+  max-width: 450px;
+  min-width: 150px;
+  border: 1px solid lightgray;
+  margin: 0.5rem;
+  -webkit-box-shadow: 0 0 15px 1px #777;
+  box-shadow: 0 0 15px 1px #777;
+}
+
+.rooms_card-container .card .room-services i {
+  color: #22aa44;
+  padding-right: 1rem;
+}
+
+.rooms_card-container .card .btn {
+  background-color: #003580;
+}
+
+.carousel-container a {
+  padding: 0.5rem;
+  font-weight: 600;
+  color: #0a000e;
+  padding: 1rem;
+}
+
+.carousel-container a:nth-child(2) {
+  background-color: #0a000e;
+  color: #f8f9f7;
+}
+
+.carousel-container a:nth-child(2):hover {
+  cursor: pointer;
+  background-color: #22aa44;
+  color: #0a000e;
+}
+
+.carousel-container a:not(:nth-child(2)) {
+  background-color: #f8f9f7;
+  color: #0a000e;
+}
+
+.carousel-container a:not(:nth-child(2)):hover {
+  cursor: pointer;
+  background-color: #003580;
+  color: #f8f9f7;
+}
+
+.payment-container {
+  margin: 5rem auto;
+}
+
+.payment-container .payment-methods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.payment-container .payment-methods li {
+  padding: 0.5rem;
+}
+
+#Subscription .card:hover {
+  opacity: 1;
+}
+
+#Subscription .card-title {
+  margin-top: 1rem;
+}
+
+#Hotels .Hotels-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) [2];
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px;
+}
+
+#Hotels .Hotels-container .photo p {
+  color: #f8f9f7;
+  text-shadow: 1px 3px 3px #02314b;
+  text-align: center;
+  position: relative;
+  top: 35%;
+  letter-spacing: 10px;
+  font-size: 5rem;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+#Hotels .Hotels-container .photo:nth-child(1) {
+  background: url(/dist/Portfolio/Hotel/img/Citys/paris.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+#Hotels .Hotels-container .photo:nth-child(2) {
+  background: url(/dist/Portfolio/Hotel/img/Citys/milano.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+#Hotels .Hotels-container .photo:nth-child(3) {
+  background: url(/dist/Portfolio/Hotel/img/Citys/dubai.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+#Hotels .Hotels-container .photo:nth-child(4) {
+  background: url(/dist/Portfolio/Hotel/img/Citys/toronto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+#Hotels .Hotels-container .photo:nth-child(5) {
+  background: url(/dist/Portfolio/Hotel/img/Citys/rome.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+#Hotels .Hotels-container .photo:nth-child(6) {
+  background: url(/dist/Portfolio/Hotel/img/Citys/berlin.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+#Hotels .Hotels-container .photo:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  -webkit-box-shadow: 0 0 15px 2px #777;
+  box-shadow: 0 0 15px 2px #777;
+  border-radius: 10px;
+}
+
+#Contact .contact_container {
+  width: 100%;
+  height: 100%;
+}
+
+#Contact .contact_container .card-header {
+  background-color: #003580;
+  color: #f8f9f7;
+}
+
+#Contact .contact_container i {
+  color: #003580;
+  padding-right: 1rem;
+}
+
+#Contact .contact_container .btn {
+  background-color: #003580;
+  color: #f8f9f7;
+  margin: 0 0 1rem 1rem;
+}
+
+#Contact .contact_container form {
+  padding: 1rem;
+}
+
+#Footer {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #003580;
+  width: 100%;
+  color: #f8f9f7;
+}
+
+#Footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#Footer .social i {
+  font-size: 1.5rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#Footer .social i:hover {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ffbb33;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#Footer p {
+  letter-spacing: 1.5px;
+}
+
+#Footer p a {
+  color: #ffbb33;
+}
+
+@media (max-width: 1024px) {
+  .rooms_card-container {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 768px) {
+  #Nav-with-Logo-Button {
+    max-width: 768px;
+    font-size: 1rem;
+  }
+  .rooms_card-container {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+  .rooms_card-container .card {
+    max-width: 350px;
+  }
+  #Hotels .Hotels-container {
+    gap: 10px;
+    margin: 1;
+  }
+  #Hotels .Hotels-container .photo p {
+    font-size: 3rem;
+  }
+  #Hotels .Hotels-container .photo:nth-child(1) {
+    background: url(/dist/Portfolio/Hotel/img/Citys/paris.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+  #Hotels .Hotels-container .photo:nth-child(2) {
+    background: url(/dist/Portfolio/Hotel/img/Citys/milano.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+  #Hotels .Hotels-container .photo:nth-child(3) {
+    background: url(/dist/Portfolio/Hotel/img/Citys/dubai.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+  #Hotels .Hotels-container .photo:nth-child(4) {
+    background: url(/dist/Portfolio/Hotel/img/Citys/toronto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+  #Hotels .Hotels-container .photo:nth-child(5) {
+    background: url(/dist/Portfolio/Hotel/img/Citys/rome.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+  #Hotels .Hotels-container .photo:nth-child(6) {
+    background: url(/dist/Portfolio/Hotel/img/Citys/berlin.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  h2 {
+    text-align: center;
+  }
+  #Nav-with-Logo-Button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 150px;
+  }
+  #Nav-with-Logo-Button .nav_logo {
+    width: 100%;
+  }
+  #Nav-with-Logo-Button ul {
+    height: 100%;
+  }
+  #Nav-with-Logo-Button .nav_links {
+    padding: 0;
+    margin: 1rem 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #Nav-with-Logo-Button .nav_links .nav_link a {
+    padding: 0;
+    margin: 1rem 0;
+    color: #f8f9f7;
+    height: 100%;
+  }
+  #Nav-with-Logo-Button .nav_links .nav_link a:hover {
+    color: #f8f9f7;
+    background-color: #1177ff;
+  }
+  #Nav-with-Logo-Button .nav_links .nav_link .account-container {
+    position: relative;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #Header {
+    margin-top: 0;
+  }
+  #Header .card {
+    left: 0%;
+    min-width: 300px;
+    -webkit-animation: Hotel-anime 3s ease;
+    animation: Hotel-anime 3s ease;
+  }
+  @-webkit-keyframes Hotel-anime {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+  @keyframes Hotel-anime {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+  #Header #Hotel_name .date-container,
+  #Header #Hotel_name .people-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  #Rooms_form .Rooms-container {
+    -ms-grid-columns: (1fr) [2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #Hotels .Hotels-container {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
