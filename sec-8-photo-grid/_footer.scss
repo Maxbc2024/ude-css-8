@@ -1,0 +1,36 @@
+#footer-area {
+  background-color: darken($light-c, 5%);
+  background-color: $light-c;
+  max-width: 60%;
+  margin: auto;
+  .footer-grid-container {
+    @include SimpleGrid(6, 1fr);
+    justify-items: center;
+    i {
+      font-size: $xl-font-size;
+      padding: 0.5rem;
+      &:nth-child(1) {
+        color: $Facebook;
+      }
+      &:nth-child(2) {
+        color: $Instagram;
+      }
+      &:nth-child(3) {
+        color: $LinkedIn;
+      }
+      &:nth-child(4) {
+        color: $YouTube;
+      }
+      &:nth-child(5) {
+        color: $Twitter;
+      }
+      &:nth-child(6) {
+        color: $Priterest;
+      }
+    }
+    p.copy {
+      grid-column: 1/7;
+      grid-row: 2/3;
+    }
+  }
+}

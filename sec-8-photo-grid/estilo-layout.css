@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-family: "Caveat", cursive;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+:root{
+    /* // Base Colors */
+    --prim-c: #111;
+    --sec-c: #333;
+    --light-c: #fff;
+    /* // Social Colors */
+    --Facebook: #395599;
+    --Instagram: #c32f82;
+    --Twitter: #1c9deb;
+    --Printerest: #d73532;
+    --LinkedIn: #4064ad;
+    --YouTube: #f80000;
+
+    /* // Responsive Variables */
+    --iPad-Pro: 1024px;
+    --iPad: 768px;
+    --iPhone-X: 375px;
+
+    /* // Font Variables */
+    --base-font-size: 16px;
+    --sm_font-size: var(--base-font-size) * 0.8;
+    --lg_font-size: var(--base-font-size) * 1.4;
+    --xl_font-size: var(--base-font-size) * 1.8;
+
+    --title: var(--base-font-size)* 2.8;
+
+    /* display: grid;
+    grid-template-columns: repeat($repeat, $size); */
+}
+
+.lineaborde_a {
+    border: 1px solid red;
+}
+
+.lineaborde_b {
+    border: 1px solid blue;
+}
+
+.lineaborde_C {
+    border: 1px solid olivedrab;
+}
+
+.lineaborde_d {
+    border: 1px solid rgb(212, 0, 255);
+}
+
+
+/* ------------------- component-------------------------- */
+/* font */
+.text-sm {
+    font-size: 12.8px;
+}
+  
+.text-lg {
+    font-size: 22.4px;
+}
+  
+.text-xl {
+    font-size: 28.8px;
+}
+/* text position component */
+.left {
+    text-align: left;
+}
+  
+.center {
+    text-align: center;
+}
+  
+.right {
+    text-align: right;
+}
+
+/* grid component */
+
+#nav-area {
+    grid-area: nav;
+}
+  
+#header-area {
+    grid-area: header;
+}
+  
+#main-area {
+    grid-area: main;
+}
+  
+#section-area {
+    grid-area: section;
+}
+  
+  #aside-area {
+    grid-area: aside;
+}
+  
+#form-area {
+    grid-area: form;
+}
+  
+#footer-area {
+    grid-area: footer;
+}
+
+/* b */
+
+#nav-area {
+    background-color: red;
+}
+  
+#header-area {
+    background-color: green;
+}
+  
+#main-area {
+    background-color: blue;
+}
+  
+#section-area {
+    background-color: black;
+}
+  
+#aside-area {
+    background-color: yellow;
+}
+  
+#form-area {
+    background-color: pink;
+}
+  
+#footer-area {
+    background-color: gray;
+}
+
+
+
+/* -------------------------------------------- */
+
+body {
+    display: grid;
+    grid-template: "nav nav nav nav " 5vh
+                    "aside header header header " 15vh
+                    "aside main main  main" 60vh
+                    "aside  section section section" 100vh
+                    "aside  form form form" 50vh
+                    "footer footer footer footer " 10vh
+                    / 100px auto auto auto;
+
+}
+
+
+
+
+
+
+
+
+
+

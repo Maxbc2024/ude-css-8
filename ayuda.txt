@@ -2,7 +2,10 @@
 
 Live Sass Compiler
 
-
+2- completo
+3- falta
+sec 6 - completo (revisar)
+se 8 - completo (revisar)
 -------------------
 
 

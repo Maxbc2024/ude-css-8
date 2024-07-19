@@ -1,0 +1,12 @@
+#nav-area {
+  background-color: darken($light-c, 5%);
+  .nav-list {
+    @include SimpleGrid(2, 1fr);
+    text-align: center;
+    .nav-item {
+      color: $prim-c;
+      font-weight: bolder;
+      letter-spacing: 3px;
+    }
+  }
+}

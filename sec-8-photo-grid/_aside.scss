@@ -1,0 +1,11 @@
+#aside-area {
+  background-color: $light-c;
+  position: fixed;
+  left: 0;
+  margin-top: 5vh;
+  .aside-list {
+    .aside-items {
+      color: $prim-c;
+    }
+  }
+}
