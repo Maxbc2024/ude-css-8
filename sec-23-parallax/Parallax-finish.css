@@ -36,7 +36,7 @@ html, body {
 }
 
 .img_container-1 {
-  background-image: url(/dist/Portfolio/Parallax//img/header.jpg);
+  background-image: url(img/header.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -57,11 +57,11 @@ html, body {
 }
 
 .about-img {
-  background-image: url(/dist/Portfolio/Parallax//img/about.jpg);
+  background-image: url(img/about.jpg);
 }
 
 .grid-img-1 {
-  background-image: url(/dist/Portfolio/Parallax//img/Services/service-1.jpg);
+  background-image: url(img/Services/service-1.jpg);
   background-position: center;
   background-size: cover;
   height: 75vh;
@@ -73,7 +73,7 @@ html, body {
 }
 
 .grid-img-2 {
-  background-image: url(/dist/Portfolio/Parallax//img/Services/service-2.jpg);
+  background-image: url(img/Services/service-2.jpg);
   background-position: center;
   background-size: cover;
   height: 75vh;
@@ -85,7 +85,7 @@ html, body {
 }
 
 .grid-img-3 {
-  background-image: url(/dist/Portfolio/Parallax//img/Services/service-3.jpg);
+  background-image: url(img/Services/service-3.jpg);
   background-position: center;
   background-size: cover;
   height: 75vh;
@@ -97,7 +97,7 @@ html, body {
 }
 
 #Footer {
-  background-image: url(/dist/Portfolio/Parallax//img/footer.jpg);
+  background-image: url(img/footer.jpg);
   background-position: center;
   background-size: cover;
   height: 300px;

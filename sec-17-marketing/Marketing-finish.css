@@ -41,7 +41,7 @@ body {
   position: relative;
   width: 100%;
   margin: auto;
-  background: url(/dist/Portfolio/Marketing/img/architectural-design-architecture-blue-sky-buildings-442577.jpg);
+  background: url(img/architectural-design-architecture-blue-sky-buildings-442577.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +155,7 @@ body {
   border-radius: 0;
   -webkit-box-shadow: 0 0 15px 2px #555;
           box-shadow: 0 0 15px 2px #555;
-  background: url(/dist/Portfolio/Marketing/img/Team/group-of-people-in-dress-suits-776615.jpg);
+  background: url(img/group-of-people-in-dress-suits-776615.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

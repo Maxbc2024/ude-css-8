@@ -65,7 +65,7 @@ p {
 }
 
 #Header {
-  background: url(/dist/Portfolio/Hotel/img/header.jpg);
+  background: url(img/header.jpg);
   margin-top: 2rem;
   background-position: center;
   background-size: cover;
@@ -308,7 +308,7 @@ p {
 }
 
 #Hotels .Hotels-container .photo:nth-child(1) {
-  background: url(/dist/Portfolio/Hotel/img/Citys/paris.jpg);
+  background: url(img/Citys/paris.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -317,7 +317,7 @@ p {
 }
 
 #Hotels .Hotels-container .photo:nth-child(2) {
-  background: url(/dist/Portfolio/Hotel/img/Citys/milano.jpg);
+  background: url(img/Citys/milano.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -326,7 +326,7 @@ p {
 }
 
 #Hotels .Hotels-container .photo:nth-child(3) {
-  background: url(/dist/Portfolio/Hotel/img/Citys/dubai.jpg);
+  background: url(img/Citys/dubai.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ p {
 }
 
 #Hotels .Hotels-container .photo:nth-child(4) {
-  background: url(/dist/Portfolio/Hotel/img/Citys/toronto.jpg);
+  background: url(img/Citys/toronto.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -344,7 +344,7 @@ p {
 }
 
 #Hotels .Hotels-container .photo:nth-child(5) {
-  background: url(/dist/Portfolio/Hotel/img/Citys/rome.jpg);
+  background: url(img/Citys/rome.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ p {
 }
 
 #Hotels .Hotels-container .photo:nth-child(6) {
-  background: url(/dist/Portfolio/Hotel/img/Citys/berlin.jpg);
+  background: url(img/Citys/berlin.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -473,7 +473,7 @@ p {
     font-size: 3rem;
   }
   #Hotels .Hotels-container .photo:nth-child(1) {
-    background: url(/dist/Portfolio/Hotel/img/Citys/paris.jpg);
+    background: url(img/Citys/paris.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -481,7 +481,7 @@ p {
     width: 100%;
   }
   #Hotels .Hotels-container .photo:nth-child(2) {
-    background: url(/dist/Portfolio/Hotel/img/Citys/milano.jpg);
+    background: url(img/Citys/milano.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@ p {
     width: 100%;
   }
   #Hotels .Hotels-container .photo:nth-child(3) {
-    background: url(/dist/Portfolio/Hotel/img/Citys/dubai.jpg);
+    background: url(img/Citys/dubai.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -497,7 +497,7 @@ p {
     width: 100%;
   }
   #Hotels .Hotels-container .photo:nth-child(4) {
-    background: url(/dist/Portfolio/Hotel/img/Citys/toronto.jpg);
+    background: url(img/Citys/toronto.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -505,7 +505,7 @@ p {
     width: 100%;
   }
   #Hotels .Hotels-container .photo:nth-child(5) {
-    background: url(/dist/Portfolio/Hotel/img/Citys/rome.jpg);
+    background: url(img/Citys/rome.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -513,7 +513,7 @@ p {
     width: 100%;
   }
   #Hotels .Hotels-container .photo:nth-child(6) {
-    background: url(/dist/Portfolio/Hotel/img/Citys/berlin.jpg);
+    background: url(img/Citys/berlin.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
