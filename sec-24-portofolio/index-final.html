@@ -7,15 +7,14 @@
       src="https://kit.fontawesome.com/75e53ee709.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="Components-finalX.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Components-final.css" />
+    <link rel="stylesheet" href="index-final.css" />
     <title>Portfolio Template</title>
   </head>
   <body>
     
     <!-- Navigation for screens larger then 1024px -->
-    <nav id="Nav-with-Logo-Button" 
-      class="nav nav-light-c text-lg position-top">
+    <nav id="Nav-with-Logo-Button" class="nav nav-light-c text-lg position-top">
       <!-- Nav Logo -->
       <div class="nav_logo">
         <a class="navbar-brand" href="#">Norbert</a>
@@ -24,13 +23,13 @@
       <input type="checkbox" id="menu" />
       <!-- Nav Links -->
       <ul class="nav_links UP">
-        <li class="nav_link"><a href="#">Home</a></li>
-        <li class="nav_link"><a href="#">About</a></li>
+        <li class="nav_link"><a href="/dist/index.html">Home</a></li>
+        <li class="nav_link"><a href="#About">About</a></li>
 
-        <li class="nav_link"><a href="#">Portfolio</a></li>
-        <li class="nav_link"><a href="#">Services</a></li>
-        <li class="nav_link"><a href="#">Blog</a></li>
-        <li class="nav_link"><a href="#">Contact</a></li>
+        <li class="nav_link"><a href="/dist/portfolio.html">Portfolio</a></li>
+        <li class="nav_link"><a href="/dist/Services.html">Services</a></li>
+        <li class="nav_link"><a href="/dist/blog.html">Blog</a></li>
+        <li class="nav_link"><a href="/dist/contact.html">Contact</a></li>
       </ul>
       <!-- Nav Menu Btn -->
       <a href="#" class="menu_btn">
@@ -44,9 +43,8 @@
       </a>
     </nav>
 
-
     <main>
-      
+      <!-- Header -->
       <header id="Header">
         <section class="info">
           <div class="card">
@@ -70,10 +68,10 @@
 
               <a
                 id="Profile_btn"
-                href="#"
+                href="/dist/Portfolio/myCV.html"
+                target="_blank"
               >
-                <button type="button" 
-                  class="btn btn-outline-dark-c btn-lg">
+                <button type="button" class="btn btn-outline-dark-c btn-lg">
                   View My Profile <i class="fas fa-arrow-right"></i></button
               ></a>
             </div>
@@ -83,7 +81,6 @@
           <img src="img/Profile.jpg" alt="" />
         </section>
       </header>
-
       <hr />
 
       <section id="About">
@@ -136,16 +133,15 @@
             </div>
           </div>
         </div>
-      </section> 
+      </section>
+    </main>
 
-    </main> 
-
-   <footer id="Footer">
+    <footer id="Footer">
       <p class="text-md center">
         Powerde by
         <a href="https://volere.life/web-development/"></a> &copy;Menyhart Media
       </p>
-    </footer> 
+    </footer>
     
   </body>
 </html>
